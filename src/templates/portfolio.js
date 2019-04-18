@@ -20,5 +20,4 @@ export default ({pageContext}) => (
         <FeaturedImage src={pageContext.featured_media.source_url} />
         <div dangerouslySetInnerHTML={{__html: pageContext.content}}/>
     </Layout>
-   
 );

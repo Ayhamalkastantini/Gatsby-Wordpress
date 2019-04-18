@@ -48,7 +48,7 @@ const PortfolioItems = () => {
                 </h2>
                 <PortfolioImage src={portfolioItems.node.featured_media.source_url} alt={portfolioItems.node.title}/>
                 <div dangerouslySetInnerHTML={{__html: portfolioItems.node.excerpt}}/>
-                <Link to={`gatsby/portfolio/${portfolioItems.node.slug}`}>Read more</Link>
+                <Link to={`/portfolio/${portfolioItems.node.slug}`}>Read more</Link>
             </PortfolioItem>
             ))}
             </PortfolioItemWapper>
